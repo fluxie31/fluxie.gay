@@ -30,7 +30,29 @@ function randomSplash() {
 
 function getRandomSplash() {
 	return splashes[splashes.length - splashInst--];
-	
+
+}
+
+function shuffleButtons(id) {
+	// Get the parent marquee element
+	const marquee = document.getElementById(id);
+
+	// Get an array of child elements
+	const children = Array.from(marquee.children);
+
+	// Shuffle the array randomly
+	children.sort(() => Math.random() - 0.5);
+
+	// Remove all child nodes from the parent element
+	while (marquee.firstChild) {
+		marquee.removeChild(marquee.firstChild);
+	}
+
+	// Add the shuffled child nodes back to the parent element
+	children.forEach(child => {
+		marquee.appendChild(child);
+	});
+
 }
 
 // thank you kind stranger on stack overflow for this shuffle function.
