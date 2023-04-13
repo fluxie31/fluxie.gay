@@ -15,7 +15,9 @@ var splashes = [
 	"[insert splash message here]",
 	"web1 supremacy!",
 	"hugging you, welcome to the pillow zone!",
-	"home of a girl indefinitely stuck between 1994 and 2014."
+	"home of a girl indefinitely stuck between 1994 and 2014.",
+	"mcdonald's sucks!",
+	"fuck capitalism!"
 ];
 
 var splashInst = 0;
