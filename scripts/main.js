@@ -17,7 +17,8 @@ var splashes = [
 	"hugging you, welcome to the pillow zone!",
 	"home of a girl indefinitely stuck between 1994 and 2014.",
 	"mcdonald's sucks!",
-	"fuck capitalism!"
+	"fuck capitalism!",
+	"what should I put here :D"
 ];
 
 var splashInst = 0;
