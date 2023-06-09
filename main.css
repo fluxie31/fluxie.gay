@@ -25,19 +25,19 @@ body {
 	text-transform: lowercase;
 }
 
-header, main section, aside, footer {
+header, nav, main section, aside, footer {
 	background-color: #ABABFF;
 	margin: 4px;
 	padding: 1px;
 	border: 4px solid black;
 	border-radius: 16px;
-	transition: all .1s ease-out;
+	/*transition: all .1s ease-out;*/
 }
-
+/*
 header:hover, main section:hover, aside:hover, footer:hover {
 	transform: scale(0.975) rotate(0.75deg);
 }
-
+*/
 header, footer {
 	text-align: center;
 }
@@ -134,4 +134,15 @@ marquee {
 marquee img {
 	padding: 0;
 	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
 }
