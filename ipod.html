@@ -12,6 +12,12 @@
 		<h1><a href="/">fluxie's plushie zone!</a></h1>
 		<p id="splash" onclick="randomSplash()"></p>
 	</header>
+	<nav>
+		<ul>
+			<li><a href="/">home</a> |</li>
+			<li><a href="/ipod.html">my ipod music!</a></li>
+		</ul>
+	</nav>
 	<div class="flexbox">
 		<main>
 			<section id="ipod">
@@ -20,7 +26,7 @@
 					I installed Rockbox onto it and have been making
 					really good use of it since I got it. </p>
 				<p style="text-align: center;"><img src="/images/ipod/ipod-picture.jpg" width="320"></p>
-				<p>here is an awesome list of all the music i have on it, in alphabetical order !</p>
+				<p>here is an awesome list of all the music i have on it !</p>
 				<ul>
 					<li>Fall Out Boy
 						<ul>
@@ -34,6 +40,11 @@
 					</li>
 					<li>Gregory And The Hawk
 						<ul>
+							<li>Individual songs
+								<ul>
+									<li>Sweet Winter Hello (2007)</li>
+								</ul>
+							</li>
 							<li>Moenie and Kitchi (2008)</li>
 						</ul>
 					</li>
@@ -49,7 +60,7 @@
 					</li>
 					<li>OK Go
 						<ul>
-							<li>Oh No (2005)</li>
+							<li id="note-1-parent">Oh No (2005)<sup><a href="#note-1">[1]</a></sup></li>
 						</ul>
 					</li>
 					<li>Panic! At The Disco
@@ -76,12 +87,20 @@
 					</li>
 				</ul>
 			</section>
+			<section id="notes">
+				<h2>notes</h2>
+				<p>
+					<sup id="note-1">[1] <a href="#note-1-parent">[^]</a></sup>
+					<i>This does not include the filler track 9027 KM. fun fact: that track's existence is an anti-drm movement ^w^</i><br>
+				</p>
+			</section>
 		</main>
 	</div>
 	<footer>
 		<p>
-			Website created by Roxie "Fluxie" Wattz.<br>
-			Last update: 2023/06/09
+			paw-crafted by roxie "fluxie" wattz.<br>
+			last updated: 2023/06/22<br>
+			<span class="ignore-lowercase-rule">♡<span class="rip-greek-support">ΘΔ</span>&</span>
 		</p>
 	</footer>
 </body>

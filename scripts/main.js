@@ -18,7 +18,13 @@ var splashes = [
 	"home of a girl indefinitely stuck between 1994 and 2014.",
 	"mcdonald's sucks!",
 	"fuck capitalism!",
-	"what should I put here :D"
+	"what should I put here :D",
+	"fuck a job!",
+	"fuck work!",
+	"trans pride!",
+	"lesbian pride!",
+	"poly pride!",
+	"veganism is based!"
 ];
 
 var splashInst = 0;

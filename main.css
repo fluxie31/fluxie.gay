@@ -8,6 +8,11 @@
 	src: url("/fonts/TiltNeon-Regular.ttf");
 }
 
+@font-face {
+	font-family: 'Comfortaa';
+	src: url("/fonts/Comfortaa-Regular.ttf");
+}
+
 ::selection {
 	background-color: #3F1FFF;
 	color: white;
@@ -145,4 +150,8 @@ nav ul {
 
 nav li {
 	display: inline;
+}
+
+.rip-greek-support {
+	font-family: 'Comfortaa', sans-serif;
 }
